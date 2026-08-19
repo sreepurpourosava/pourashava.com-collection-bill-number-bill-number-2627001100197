@@ -14,7 +14,7 @@
         }
 
         body {
-            background-color: #ffffff;
+            background-color: #f4f6f9;
             display: flex;
             justify-content: center;
             align-items: flex-start;
@@ -25,15 +25,24 @@
         .bill-card {
             background: #ffffff;
             width: 100%;
-            max-width: 500px;
-            border: 1px solid #d3d3d3;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            max-width: 550px;
+            border: 1px solid #dcdcdc;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-radius: 4px;
+            overflow: hidden;
         }
 
         .header {
             text-align: center;
-            padding: 15px 10px;
-            border-bottom: 2px dashed #bbb;
+            padding: 20px 15px 15px 15px;
+            border-bottom: 2px dashed #ccc;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 8px;
         }
 
         .header h1 {
@@ -51,7 +60,7 @@
 
         .header p {
             color: #666;
-            font-size: 12px;
+            font-size: 13px;
         }
 
         .bill-no-box {
@@ -65,22 +74,22 @@
         }
 
         .status-badge {
-            background-color: #2e7d32;
+            background-color: #28a745;
             color: #ffffff;
             text-align: center;
-            padding: 7px;
+            padding: 8px;
             font-weight: bold;
             font-size: 15px;
         }
 
         .section-header {
             background-color: #f1f3f5;
-            padding: 6px 12px;
+            padding: 7px 12px;
             font-weight: bold;
             color: #444;
             border-top: 1px solid #ccc;
             border-bottom: 1px solid #ccc;
-            font-size: 13.5px;
+            font-size: 14px;
         }
 
         .grid-table {
@@ -89,8 +98,8 @@
         }
 
         .grid-table td {
-            padding: 6px 12px;
-            font-size: 13px;
+            padding: 7px 12px;
+            font-size: 13.5px;
             color: #222;
             border-bottom: 1px solid #eee;
             width: 50%;
@@ -107,8 +116,8 @@
         }
 
         .summary-table td {
-            padding: 6px 12px;
-            font-size: 13px;
+            padding: 7px 12px;
+            font-size: 13.5px;
             color: #222;
             border-bottom: 1px solid #eee;
         }
@@ -121,7 +130,7 @@
         .footer {
             padding: 10px;
             text-align: center;
-            font-size: 12px;
+            font-size: 13px;
             color: #666;
             border-top: 1px solid #ddd;
             background-color: #fafafa;
@@ -132,6 +141,7 @@
 
 <div class="bill-card">
     <div class="header">
+        <img src="https://raw.githubusercontent.com/sreepurpourosava/sreepur-warish/main/logo.png" alt="শ্রীপুর পৌরসভা লোগো" class="logo">
         <h1>শ্রীপুর পৌরসভা</h1>
         <h2>শ্রীপুর পৌরসভা কার্যালয়</h2>
         <p>শ্রীপুর, গাজীপুর</p>
